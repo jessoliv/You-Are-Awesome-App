@@ -18,15 +18,19 @@ class ViewController: UIViewController {
 		// Do any additional setup after loading the view, typically from a nib.
 		
 	}
-
-	@IBAction func showOtherMessage(_ sender: Any) {
-		messageLabel.text = "You Are Great!"
-	}
 	
 	@IBAction func showMessagePressed(_ sender: UIButton) {
 		messageLabel.text = "You Are Awesome!"
+		messageLabel.textColor = UIColor.red
 		
 		
 	}
+
+	@IBAction func showOtherMessage(_ sender: Any) {
+		messageLabel.text = "You Are Great!"
+		messageLabel.textColor = UIColor.blue
+	}
+	
+	
 }
 
