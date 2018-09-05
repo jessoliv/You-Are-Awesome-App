@@ -23,7 +23,7 @@ class ViewController: UIViewController {
 		let messages = ["You Are Awesome!",
 						"You Are Great!",
 						"You Are Fantastic!",
-						"when the Genius bar needs help, they call you",
+						"When the Genius bar needs help, they call you",
 						"You Brighten My Day!",
 						"You make me smile!",
 						"You are da bomb!",
@@ -34,7 +34,7 @@ class ViewController: UIViewController {
 		messageLabel.text = messages[index]
 		if index == messages.count - 1 {
 			index = 0
-		}else{
+		} else {
 			index = index + 1
 		}
 		
