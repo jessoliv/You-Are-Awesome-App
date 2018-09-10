@@ -33,7 +33,6 @@
                                 <rect key="frame" x="135.5" y="117" width="104" height="30"/>
                                 <state key="normal" title="Show Message"/>
                                 <connections>
-                                    <action selector="showMessagePressed2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VAx-hS-eC5"/>
                                     <action selector="showMessagePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qLq-ZW-9aN"/>
                                 </connections>
                             </button>
